@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic HTML Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, nav, main, article, aside, footer {
+      padding: 20px;
+      margin: 10px;
+      border: 1px solid #ddd;
+    }
+    header {
+      background-color: #f4f4f4;
+    }
+    main {
+      display: flex;
+    }
+    article {
+      flex: 3;
+    }
+    aside {
+      flex: 1;
+      background-color: #f4f4f4;
+    }
+    footer {
+      background-color: #e4e4e4;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  
+<header>
+  <h1>CHUKWUDALU</h1>
+<header>
+  
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <section>
+    <h2>About me</h2>
+    <p>My name is CHUKWUDALU, I'm a software Engineering student learning web development</p>
+    <form action="/image" method="post">
+      <div>
+        <label for="image">Image:</label>
+        <input type="file" id="image" name="image" required>
+      </div>
+  
+    </form>
+  </section>
+  
+  <section>
+    <h2>Projects</h2>
+      <ul>
+        <li>Fingerprint Attendence system</li>
+      <p>A Fingerprint Attendence system is a biometric technology-based system
+         used to track and manage attendence in various settings such as workplaces, schools and various instituition</p>
+        <li>Registration Page</li>
+      <p>A Registration page Project involves designing and developing a web page where users
+        can sign and create accounts.
+      </p>
+        <li>Hotel website</li>
+      <p>A hotel website project involves creating an online platform where potential guests
+        can explore and book accomodations, amenities, and services offered by the hotel.
+      </p>
+      </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <form submit="/submit_form" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="name" name="message" rows="5" required></textarea>
+    </form>
+  </section>
+
+
+</main>
+
+<footer>
+  <p>&copy; 2024 My website. All rights reserved.</p>
+</footer>
+
+</body>
+
+</html>     
